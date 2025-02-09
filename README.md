@@ -8,28 +8,32 @@ This project focuses on training a YOLOv8s model for object detection on a Retai
 
 2. run data_preprocessing.py to get structured dataset(if needed)
 
-Dataset Structure
-Images:
-    ├── train
+### Dataset Structure
+
+```
+Images/
+    ├── train/
     │   ├── image_1.png
     │   ├── image_2.png
-    ├── val
+    ├── val/
     │   ├── image_3.png
     │   ├── image_4.png
-    ├── test
+    ├── test/
     │   ├── image_5.png
     │   ├── image_6.png
-Labels:
-    ├── train
+
+Labels/
+    ├── train/
     │   ├── image_1.txt
     │   ├── image_2.txt
-    ├── val
+    ├── val/
     │   ├── image_3.txt
     │   ├── image_4.txt
-    ├── test
+    ├── test/
     │   ├── image_5.txt
     │   ├── image_6.txt
- 
+```
+
 2. Training Setup on cpu
 
 Environment Setup:
