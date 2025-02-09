@@ -1,12 +1,12 @@
 # yolov8
 
-YOLOv8 Training and Inference Report
+**YOLOv8 Training and Inference Report**
 
 1. Project Overview
 
 This project focuses on training a YOLOv8s model for object detection on a Retail Store Dataset. The process includes training, inference, and conversion to the ONNX format to optimize inference speed.
 
-2. run data_preprocessing.py to get structured dataset(if needed)
+2. run **data_preprocessing.py** to get structured dataset(if needed)
 
 ### Dataset Structure
 
@@ -34,17 +34,24 @@ Labels/
     │   ├── image_6.txt
 ```
 
-2. Training Setup on cpu
+2.**Training Setup on cpu**
 
 Environment Setup:
-
+```
 conda create -n yolov8 python=3.8
+```
+```
+conda activate yolov8 
+```
 
-3.run yolov8_custom_training.ipynb to train a custom yolov8s.pt model.
+3.run **yolov8_custom_training.ipynb** to train a custom yolov8s.pt model.
 
-4.run TORCH_TO_ONNX.py to get onnx model.
+4.run **TORCH_TO_ONNX.py** to get onnx model.
 
 5.Test both the models (.pt and .onnx) and observe the results and inference time.
+![Dataset Structure]()
+)
+
 
 6.Inference time :
 
