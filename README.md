@@ -49,11 +49,12 @@ conda activate yolov8
 4.run **TORCH_TO_ONNX.py** to get onnx model.
 
 5.Test both the models (.pt and .onnx) and observe the results and inference time.
-![Dataset Structure]()
-)
 
+**Sample:**
 
-6.Inference time :
+![Dataset Structure](https://github.com/akhila-shaik/yolov8_training/blob/master/image.jpg)
+
+6.**Inference time :**
 
 pytorch model - 417.2 ms
 onxx model - 288.3ms
