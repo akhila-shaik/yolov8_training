@@ -57,6 +57,7 @@ conda activate yolov8
 6.**Inference time :**
 
 pytorch model - 417.2 ms
+
 onxx model - 288.3ms
 
 The inference time is decreased by approximately 30.90%(on cpu) for onnx model
