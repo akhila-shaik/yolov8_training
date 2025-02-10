@@ -48,7 +48,7 @@ conda activate yolov8
 
 4.run **TORCH_TO_ONNX.py** to get onnx model.
 
-5.Test both the models (.pt and .onnx) and observe the results and inference time.
+5.Test both the models (.pt and .onnx) and observe the output with bounding boxes with confidence score and inference time.
 
 **Sample:**
 
